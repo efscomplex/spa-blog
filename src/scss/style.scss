@@ -4,10 +4,6 @@
 @import 'components';
 @import 'typography';
 
-// * Enabling Fontawesome  * //
-@import 'fontawesome'; //*todo See README.md in scss folder
-@import "fontawesome/brands"; 
-
 // *? utils ** //
 @include hard-reset; // ** from utils/reset 
 

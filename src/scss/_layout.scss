@@ -2,11 +2,11 @@
    body {
         min-height:100vh;
         display:grid;
-        grid-template-areas: 'header header' 
-                            'main aside' 
-                            'footer footer';
-        grid-template-columns: 60vw 1fr;
-        grid-template-rows: 1fr minmax(70vh,auto) 1fr;
+        grid-template-areas: 'header' 
+                            'main' 
+                            'footer';
+        grid-template-columns: 1fr;
+        grid-template-rows: fit-content(0px) 1fr min-content;
         @include setGridAreas(
             'header','main','aside','footer'
         );  

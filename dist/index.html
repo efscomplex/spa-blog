@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <link rel="stylesheet" href="/css/style.css"/>
-    <title>Grid Templates</title>
+    <title>VanillaJs - SPA</title>
   </head>
   <body>
     <header class="header wrapper">
@@ -19,19 +19,18 @@
           <li><a href="/pug/views/contact.html">Contact</a></li>
         </ul>
       </nav>
-      <div class="social-bar"><i class="fab fa-facebook"></i><i class="fab fa-instagram"></i><i class="fab fa-linkedin"></i></div>
       <input class="search" placeholder="find articles"/>
     </header>
     <main class="main">
-      <div class="articles" id="articles">
-        <article class="card">
+      <div class="articles">
+        <article class="card jumbotron">
           <h1>Cuando te alejas de toda filosofia de vida</h1>
           <div class="main-content">
             <p class="main-text">Para los soñadores que se olvidan de lo que tienen delante, esos que atestiguan una vida falsa repleta de experiencias sin sentido... Hay algo tan sutil solo apreciable en el pacífico momento del presente intemporal en que los sueños se derrumban y solo la realidad manifiesta sucede sin obstáculos ni forma aparente.</p>
           </div>
           <button class="btn">Continue Reading</button>
         </article>
-        <article class="card-article">
+        <article class="card-article jumbotron">
           <aside><img class="banner img" src="https://cdn.magdeleine.co/wp-content/uploads/2019/09/a-cluster-of-bronzed-leaves-1400x933.jpg"/></aside>
           <aside>
             <h1>Autointeresados</h1>
@@ -43,8 +42,6 @@
         </article>
       </div>
     </main>
-    <aside class="aside">
-    </aside>
     <footer class="footer">
       <p>powered by @efscomplex</p>
     </footer>
