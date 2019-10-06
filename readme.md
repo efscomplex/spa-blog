@@ -1,6 +1,5 @@
 # by @efscomplex
-> This is a template with structured directories using GulpJS
-> use live-server
+> Template for Single page applications using GulpJS and live-server
 > Scripts:
 "server": "live-server dist/",
 "server:build": "live-server build/",
